@@ -1,0 +1,128 @@
+input, label {
+    display:block;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow-x:hidden;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  padding-top: 7%;
+  margin: 0;
+  color: white;
+  font-size: 700%;
+}
+p{
+  color: white;
+  font-size: 300%;
+}
+#background {
+    height: 50%;
+    background-color:teal;
+    text-align: center;
+    width: 100%;
+}
+
+/*#center {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+*/
+
+h4{
+  color: red;
+  width: 100%;
+  font-size:150%;
+}
+
+h2{
+  color: red;
+  width: 100%;
+  font-size: 170%;
+
+
+
+}
+#primeResult{
+  color: teal;
+  width: 100%;
+}
+
+
+#center {
+justify-content: center;
+margin-left: 25%;
+width: 100%;
+font-size: 130%;
+}
+
+input{
+  font-size: 150%;
+}
+
+#left{
+  float:left;
+  margin-right:2%;
+}
+
+#right{
+  float:left;
+}
+
+button {
+  color: teal;
+  background-color: white;
+  border: 1px solid teal;
+  display: block;
+  margin-top: 5%;
+  height: 5%;
+  width: 5%;
+  font-size: 75%;
+
+}
+#button {
+  justify-content: center;
+  margin-left: 25%;
+  width: 100%;
+  float: left;
+
+}
+
+@media (max-width:900px) {
+
+  h1{
+    padding-top: 7%;
+    margin: 0;
+    color: white;
+    font-size: 525%;
+  }
+  p{
+    color: white;
+    font-size: 225%;
+  }
+
+  #left{
+    margin-right:15%;
+    width: 100%;
+  }
+
+  #right{
+    float:left;
+    width: 100%;
+}
+
+button {
+  color: teal;
+  background-color: white;
+  border: 1px solid teal;
+  display: block;
+  margin-top: 5%;
+  height: 5%;
+  width: 5%;
+  font-size: 40%
+}
