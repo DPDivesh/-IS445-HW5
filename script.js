@@ -18,10 +18,7 @@ function sendIt() {
 
   if (inputOne <= 1 || inputOne >= 101 || inputTwo <= 1 || inputTwo >= 101) {
     document.getElementById("error").innerHTML = "Invalid input, please try again.";
-<<<<<<< HEAD
     document.getElementById("primeResult").innerHTML = "";
-=======
->>>>>>> 55a3ec8a2795699975fc234097441991f69eda0d
   } else if (inputOne >= 2 && inputOne <= 100 && inputTwo >= 2 && inputTwo <= 100) {
     directPrime(inputOne, inputTwo);
   }
@@ -32,11 +29,7 @@ function directPrime(inputOne, inputTwo) {
   var numArray = [];
   var aNum = 0;
   var bNum = 0;
-<<<<<<< HEAD
   //forward and reverse on array direction
-=======
-//forward and reverse on array direction
->>>>>>> 55a3ec8a2795699975fc234097441991f69eda0d
   if (inputOne > inputTwo) {
     console.log("val1")
     aNum = inputTwo;
